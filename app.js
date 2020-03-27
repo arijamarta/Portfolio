@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("#image_container").css("display", "none");
     $("#form_content").css("display", "none");
 
-    $("#header").css("background", "pink");
+    $("#header").css("background",  "green");
     $("#header").css("width", "100%");
     $("#header").css("height", "20%");
 
@@ -12,7 +12,7 @@ $(document).ready(function() {
     $("#body").css("width", "100%");
     $("#body").css("height", "75%");
     
-    $("#footer").css("background", "red");
+    $("#footer").css("background", "green");
     $("#footer").css("width", "100%");
     $("#footer").css("height", "20%");
 
