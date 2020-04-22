@@ -4,7 +4,7 @@ $(document).ready(function() {
     $("#image_container").css("display", "none");
     $("#form_content").css("display", "none");
 
-    $("#header").css("background",  "green");
+    $("#header").css("background-image",  " transparent");
     $("#header").css("width", "100%");
     $("#header").css("height", "20%");
 
