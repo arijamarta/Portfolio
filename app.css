@@ -1,6 +1,17 @@
 body, html, #container {
     height: 100%;
 }
+
+@font-face{
+font-family: 'coolfont';
+src: url(fonts/AmaticSC-Regular.ttf);
+font-weight: 100;
+}
+.title{
+text-transform: capitalize;
+font-family: 'coolfont';
+font-weight: 100;
+}
 #header {
     background-image: url('mezs.jpg');
     background-size: 100% 100%; 
