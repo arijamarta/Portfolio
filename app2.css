@@ -1,0 +1,99 @@
+@font-face{
+    font-family: coolfont; 
+    src: url(AmaticSC-Regular.ttf); 
+    font-weight: 100;
+    }
+body, html, #container {
+    height: 100%;}
+    .btn{ border: 1px solid transparent;
+    background-image: url('mezs.jpg');
+    padding: 10px 20px;
+    font-family:coolfont ;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0,8s;
+    position: relative;
+    overflow: hidden;
+
+    }
+    .btn1, .btn2, .btn3{
+        color: transparent
+    }
+    .btn1:hover, .btn2: :hover, .btn3: :hover{
+        color: 629c44;
+    }
+    .btn::before{
+        content: "";
+        position:absolute ;
+        left: 0cm;
+        width: 100%;
+        height: 100%;
+        background-image: url();
+    }
+}
+
+@font-face{
+    font-family: coolfont; 
+    src: url(AmaticSC-Regular.ttf); 
+    font-weight: 100;
+    }
+    h1{ 
+    text-transform: capitalize;
+    font-family: coolfont; 
+    font-weight: 100;
+    }
+   
+         
+        p{ 
+        text-transform: capitalize;
+        font-family: coolfont; 
+        font-weight: 100;
+        }
+
+
+}
+.col-sm-7{
+padding-bottom: 0%;
+}
+.col-sm-8{
+padding-bottom: 0%;
+}
+.col-sm-9{
+padding-bottom: 0%;
+}
+.col-sm-10{
+padding-bottom: 0%;
+}
+.bilde1{
+    width: 350;
+    height: 250;
+    position: relative;
+    left: 800px;
+    top: -300px;
+}
+.bilde2{
+    height: 200;
+    width: 300;
+    position: relative;
+    left: 800px;
+    top: -250px;
+}
+.p1{
+    height: 100;
+    width:100 ;
+    position: relative;
+    left: 100px;
+    top: 20px;  
+}
+.nav{ width: 100px;
+height: auto;
+
+}
+.nav a{
+    text-decoration: none;
+    font-family: coolfont;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
