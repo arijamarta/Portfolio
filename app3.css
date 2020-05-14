@@ -1,0 +1,77 @@
+@font-face{
+    font-family: coolfont; 
+    src: url(AmaticSC-Regular.ttf); 
+    font-weight: 100;
+    }
+body, html, #container {
+    height: 100%;}
+
+
+@font-face{
+    font-family: coolfont; 
+    src: url(AmaticSC-Regular.ttf); 
+    font-weight: 100;
+    }
+    h1{ 
+    text-transform: capitalize;
+    font-family: coolfont; 
+    font-weight: 100;
+    }
+   
+         
+        .button{ 
+        text-transform: capitalize;
+        font-family: coolfont; 
+        font-weight: 100;
+        }
+             #header {
+            background-image: url('mezs.jpg');
+            background-repeat: no-repeat; 
+            background-attachment: fixed; 
+            background-size: 100% 100%; 
+       
+       
+          }
+#footer {
+    background-image: url(bilde1.jpg);
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.col-sm-7{
+padding-bottom: 0%;
+}
+.col-sm-8{
+padding-bottom: 0%;
+}
+.col-sm-9{
+padding-bottom: 0%;
+}
+.col-sm-10{
+padding-bottom: 0%;
+}
+.col-sm-11{
+    padding-bottom: 0%;
+}
+.bilde1{
+    width: 350;
+    height: 250;
+    position: relative;
+    left: 800px;
+    top: -150px;
+}
+.bilde2{
+    height: 150;
+    width: 250;
+    position: relative;
+    left: 800px;
+    top: -350px;
+}
+.p1{
+    height: 100;
+    width:100 ;
+    position: relative;
+    left: px;
+    top: 0px;  
+}
